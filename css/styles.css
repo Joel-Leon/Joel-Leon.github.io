@@ -18,3 +18,26 @@ span {
 	text-decoration: underline;
 	font-weight: normal;
 }
+
+.container {
+	background-color: gray;
+	padding: 20px;
+	margin: 10vw;
+	border-radius: 10px;
+}
+
+.container__h2 {
+	color: white;
+}
+
+.ul-li {
+	background-color: lightgray;
+	padding: 40px;
+	margin: 10vw;
+	border-radius: 10px;
+	overflow: visible;
+}
+
+.version {
+	text-align: center;
+}
