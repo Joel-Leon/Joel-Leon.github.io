@@ -20,18 +20,18 @@ span {
 }
 
 .container {
-	background-color: gray;
+	background-color: #A5A5A5;
 	padding: 20px;
 	margin: 10vw;
 	border-radius: 10px;
 }
 
 .container__h2 {
-	color: white;
+	color: #FFFFFF;
 }
 
 .ul-li {
-	background-color: lightgray;
+	background-color: #F0F0F0;
 	padding: 40px;
 	margin: 10vw;
 	border-radius: 10px;
