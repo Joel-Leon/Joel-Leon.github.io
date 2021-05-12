@@ -15,13 +15,14 @@ a:visited {
 
 .content-section {
 	display: block;
-	margin: 30px;
+	margin: 30px 40px;
+	transition: margin 0.5s;
 }
 
 .content-section__title {
 	background-color: #A5A5A5;
 	padding: 20px;
-	margin: 20px 20px 15px 20px;
+	margin: 15px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 15px 0px #A5A5A5;
 }
@@ -32,24 +33,52 @@ a:visited {
 
 .content-section__ul {
 	background-color: #F0F0F0;
-	padding: 40px;
-	margin: 15px 20px 20px 20px;
+	padding: 20px 50px;
+	margin: 15px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 15px 0px #F0F0F0;
 	overflow: auto;
 }
 
 .content-section__ul li {
-	margin: 10px 0;
+	margin: 15px 0;
 }
 
 .content-section__ul a {
-	margin: 10px 0;
+	margin: 15px 0;
 }
 
 .content-section__video {
 	background-color: #F0F0F0;
-	padding: 20px;
+	padding: 40px;
+	margin: 15px 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 15px 0px #F0F0F0;
+	transition: padding .5s;
+}
+
+.content-section__video video {
+	object-fit: contain;
+	border-radius: 0px;
+	height: 100%;
+	width: 100%;
+	transition: border-radius .5s;
+}
+
+.version {
+	text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+
+.content-section {
+	display: block;
+	margin: 30px 20px;
+}
+
+.content-section__video {
+	background-color: #F0F0F0;
+	padding: 0px;
 	margin: 15px 20px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 15px 0px #F0F0F0;
@@ -57,11 +86,9 @@ a:visited {
 
 .content-section__video video {
 	object-fit: contain;
+	border-radius: 10px;
 	height: 100%;
 	width: 100%;
 }
 
-.version {
-	text-align: center;
 }
-
