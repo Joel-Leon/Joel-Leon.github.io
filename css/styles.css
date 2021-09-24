@@ -146,6 +146,12 @@ footer {
 	transition: all 1s;
 }
 
+.content-section__span {
+	margin: 20px 0 0 0;
+	display: block;
+	font-size: 13px;
+	color: #555;
+}
 
 .content-section__ul div {
 	margin: 20px;
@@ -154,7 +160,7 @@ footer {
 	overflow: hidden;
 	border: 3px solid #dedede;
 	border-radius: 30px;
-	transition: all .5s;
+	transition: all .25s;
 }
 
 .content-section__ul div:hover {
