@@ -89,6 +89,7 @@ main a:visited {
 
 main {
 	position: relative;
+	height: calc(100vh - 220px);
 	top: 100px;
 }
 
@@ -112,14 +113,6 @@ main {
 	transition: margin .5s;
 }
 
-.galery {
-	flex-grow: 1;
-}
-
-.lista-video {
-	flex-grow: 1;
-}
-
 	/*MAIN:CONTENT-SECTION__TITLE*/
 
 .content-section__title {
@@ -136,47 +129,19 @@ main {
 	text-align: center;
 }
 
-	/*MAIN:CONTENT-SECTION__GALERY*/
+	/*MAIN:CONTENT-SECTION__UL*/
 
-.content-section__galery {
+.content-section__ul {
 	background: rgba(255, 255, 255, 0);
 	backdrop-filter: blur(14px);
-	display: grid;
-	height: 85vh;
-	padding: 15px;
+	padding: 20px 50px;
 	margin: 0;
+	max-height: 600px;
 	border: 1px solid #CCC;
 	border-radius: 0 0 30px 30px;
-	grid-gap: 15px;
-	grid-template-rows: repeat(auto-fit, minmax(200px,1fr));
-	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
 	overflow: auto;
-}
-
-.content-section__galery img {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-}
-
-	/*MAIN:CONTENT-SECTION__VIDEO*/
-
-.content-section__video {
-	background: rgba(255, 255, 255, 0);
-	backdrop-filter: blur(14px);
-	padding: 40px;
-	margin: 0;
-	border: 1px solid #CCC;
-	border-radius: 0 0 30px 30px;
-	transition: padding .5s;
-}
-
-.content-section__video video {
-	object-fit: contain;
-	border-radius: 0px;
-	height: 100%;
-	width: 100%;
-	transition: border-radius .5s;
+	text-align: center;
+	font-size: 100px;
 }
 
 /*FOOTER*/
@@ -188,8 +153,9 @@ footer {
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	height: 120px;
 	top: 100px;
+	height: 120px;
+
 }
 
 .version {
@@ -267,17 +233,10 @@ main {
 	font-size: 20px;
 }
 
-	/*MAIN:CONTENT-SECTION__GALERY*/
+	/*MAIN:CONTENT-SECTION__UL*/
 
-.content-section__galery {
-	grid-template-rows: repeat(auto-fit, minmax(180px,1fr));
-	grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
-}
-
-	/*MAIN:CONTENT-SECTION__VIDEO*/
-
-.content-section__video {
-	padding: 0;
+.content-section__ul {
+	font-size: 80px;
 }
 
 /*FOOTER*/
@@ -376,17 +335,10 @@ main {
 	font-size: 20px;
 }
 
-	/*MAIN:CONTENT-SECTION__GALERY*/
+	/*MAIN:CONTENT-SECTION__UL*/
 
-.content-section__galery {
-	grid-template-rows: repeat(auto-fit, minmax(180px,1fr));
-	grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
-}
-
-	/*MAIN:CONTENT-SECTION__VIDEO*/
-
-.content-section__video {
-	padding: 0;
+.content-section__ul {
+	font-size: 80px;
 }
 
 /*FOOTER*/
