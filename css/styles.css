@@ -153,6 +153,7 @@ main {
 	margin: 20px 0;
 	padding: 12px;
 	text-align: center;
+	word-break: break-all;
 	overflow: hidden;
 	border: 3px solid #dedede;
 	border-radius: 30px;
@@ -161,6 +162,12 @@ main {
 
 .content-section__ul div:hover {
 	border: 3px solid #FF007E;
+}
+
+		/*WORD-BREAK.NOT*/
+
+.not-wbk {
+	word-break: keep-all !important;
 }
 
 .content-section__label {
@@ -173,6 +180,7 @@ main {
 	display: block;
 	text-align: justify;
 	font-size: 13px;
+	line-height: 1.35;
 	color: #555;
 }
 
