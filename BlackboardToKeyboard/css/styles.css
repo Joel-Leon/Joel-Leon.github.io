@@ -59,6 +59,7 @@ main {
 	padding: 20px;
 	margin: 10px 0;
 	border: 2px solid #1A5276;
+	border-radius: 4px;
 }
 
 .content-section__title-h2 {
@@ -73,6 +74,7 @@ main {
 	margin: 10px 0;
 	max-height: 600px;
 	border: 2px solid #1A5276;
+	border-radius: 4px;
 	overflow: auto;
 }
 
@@ -89,6 +91,7 @@ main {
 	padding: 20px 20px;
 	margin: 10px 0;
 	border: 2px solid #1A5276;
+	border-radius: 4px;
 	overflow: auto;
 	text-align: justify;
 }
