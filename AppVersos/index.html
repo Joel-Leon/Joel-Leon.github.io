@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			App Versos
+		</title>
+		<!--Favicón-->
+		<link rel="icon" href="img/ico.png">
+
+		<!--RWD Viewport-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--Normalize-->
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+
+		<!--My styles-->
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- My code -->
+		<script type="text/javascript" src="code.js"></script>
+
+		<!--FUENTES-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header id ="header">
+			<h1 class="header__h1">App Versos</h1>
+		</header>
+		<main class="main">
+			<section class="section section--flex-container">
+				<div class="section__div section__div--corner-left">Formato</div>
+				<div class="section__space"></div>
+				<div class="buttons">
+					<div class="buttons__container">
+						<div class="buttons__square buttons__square--corner-left">
+							<img src="img/icons/button01-format.png" class="buttons__img">
+						</div>
+						<div class="buttons__space"></div>
+						<div class="buttons__square">
+							<img src="img/icons/button02-format.png" class="buttons__img">
+						</div>
+						<div class="buttons__space"></div>
+						<div class="buttons__square">
+							<img src="img/icons/button03-format.png" class="buttons__img">
+						</div>
+						<div class="buttons__space"></div>
+						<div class="buttons__square buttons__square--corner-right">
+							<img src="img/icons/button04-format.png" class="buttons__img">
+						</div>
+					</div>
+					<div class="buttons__container">
+						<div class="buttons__square buttons__square--corner-left">
+							<img src="img/icons/button01-position.png" class="buttons__img">
+						</div>
+						<div class="buttons__space"></div>
+						<div class="buttons__square">
+							<img src="img/icons/button02-position.png" class="buttons__img">
+						</div>
+						<div class="buttons__space"></div>
+						<div class="buttons__square">
+							<img src="img/icons/button03-position.png" class="buttons__img">
+						</div>
+						<div class="buttons__space"></div>
+						<div class="buttons__square buttons__square--corner-right">
+							<img src="img/icons/button04-position.png" class="buttons__img">
+						</div>
+					</div>
+				</div>
+				<div class="section__space"></div>
+				<div class="section__div section__div--corner-right">Posición</div>
+			</section>
+			<section class="section">
+				<div class="wallpaper">
+					<div class="corner">
+						<div class="middle">
+							<div class="square">
+								<div class="square__content">
+									<p class="square__verse square__verse--SWBG">
+							Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.
+									</p>
+									<span class="square__quote square__quote--SWBG">
+										Juan 3:16
+									</span>
+								</div>	
+							<div class="brand">
+								<img src="img/LCDA-S-W.png" class="brand__img">
+								<span class="brand__text">LA CASA DEL ALFARERO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
+			<section class="section section--form">
+				<form class="section__form">
+					<div class="content-form">
+						<div class="content-form__button">
+							<img src="img/icons/button-verse-form.png" class="content-form__img">
+						</div>
+						<textarea type="text" class="content-form__verse" value placeholder="Escriba aquí el versiculo." required></textarea>
+					</div>
+					<div class="content-form">
+						<div class="content-form__button">
+							<img src="img/icons/button-quote-form.png" class="content-form__img">
+						</div>
+						<input type="text" class="content-form__quote" value placeholder="Aquí la cita." required>
+					</div>
+					<div class="content-form">
+						<div class="content-form__button">
+							<img src="img/icons/button-url-form.png" class="content-form__img">
+						</div>
+						<input type="text" class="content-form__url" value placeholder="Pegue el link aquí." required>
+					</div>
+				</form>
+			</section>
+			<section class="section">
+				<h4 class="section__h4">Pixabay</h4>
+				<p class="section__paragraph">Para poder extraer imágenes de calidad y sin copyright, se recomienda buscarlas en la página pixabay.com</p>
+				<a href="https://pixabay.com/" class="section__link">Click</a>
+			</section>
+		</main>
+		<footer id = "footer">
+			<p>Todos los derechos reservados 2022 | La Casa del Alfarero - Coishco.</p>
+			<p><br>Version 1</p>
+		</footer>
+	</body>
+</html>
