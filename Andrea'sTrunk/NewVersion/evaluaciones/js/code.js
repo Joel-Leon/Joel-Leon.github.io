@@ -7,9 +7,11 @@
 
     /* List Assessment */
 
+    setAssessment(mssgAvailable(`22/10/22`,`11:00 p.m.`, `02:00 a.m.`), "https://forms.office.com/r/rsfviTx20Q");
     setAssessment(mssgAvailable(`##/##/##`,`##:## p.m.`, `##:## p.m.`), "#");
     setAssessment(mssgAvailable(`##/##/##`,`##:## p.m.`, `##:## p.m.`), "#");
     setAssessment(mssgAvailable(`##/##/##`,`##:## p.m.`, `##:## p.m.`), "#");
+    setAssessment(mssgSoonAvailable);
     setAssessment(mssgSoonAvailable);
 
 
