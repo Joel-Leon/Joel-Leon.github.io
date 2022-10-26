@@ -128,7 +128,8 @@
 
 
 .assessment__link {
-    width: auto;
+    display: flex;
+    gap: 15px;
     font-size: .9rem;
     font-weight: 700;
 }

@@ -7,7 +7,7 @@
 
     /* List Assessment */
 
-    setAssessment(mssgAvailable(`24/10/22`,`9:00 a.m.`, `28/10/22.`), "https://forms.office.com/r/rsfviTx20Q");
+    setAssessment(mssgNotAvailable, "pdf/E1.pdf pdf/R1.pdf");
     setAssessment(mssgAvailable(`28/10/22`,`9:00: a.m.`, `04/11/22.`), "https://forms.office.com/r/Pp16dSF6Yx");
     setAssessment(mssgAvailable(`##/##/##`,`##:## p.m.`, `##:## p.m.`), "#");
     setAssessment(mssgAvailable(`##/##/##`,`##:## p.m.`, `##:## p.m.`), "#");
@@ -40,10 +40,15 @@
                 return ``;
             }
             case mssgNotAvailable: {
+                let lnkNew = lnk.split(" ")
                 return `
-                <a href="${lnk}" target="_blank">
+                <a href="${lnkNew[0]}" target="_blank">
                     Ver Resultados
-                </a>`;
+                </a>
+                <a href="${lnkNew[1]}" target="_blank">
+                    Ver Resolución
+                </a>
+                `;
             }
             default: {
                 return `
